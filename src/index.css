@@ -134,11 +134,10 @@ code {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  background: rgba(86, 99, 199, 0.048);
-  border: 0.5px solid rgba(255, 255, 255, 0.273);
+background: rgba(255,255,255,.12);  border: 0.5px solid rgba(255, 255, 255, 0.273);
   backdrop-filter: blur(60px);
 
-  -webkit-backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(20px);
 }
 .cards{
   display: flex;
